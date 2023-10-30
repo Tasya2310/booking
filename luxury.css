@@ -1,0 +1,59 @@
+:root{
+    --color-light-pink:rgb(252, 211, 217);
+    --color-dark-pink:rgb(247, 72, 130);
+    --color-black:black;
+}
+
+
+body{
+    margin: 0;
+}
+
+
+.icon{
+    margin: 0;
+    padding: 0;
+}
+
+
+.header{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    background-color: var(--color-light-pink);
+    padding: 20px;
+    padding-top: 30px;
+    padding-bottom: 70px;
+}
+
+
+.header-img{
+    /* grid-area: img; */
+    background-image: url('../img/mountaint.png');
+    background-size: 100%;
+    background-repeat: repeat-x;
+    opacity: 0.5;
+    /* width: 200%; */
+    /* height: 50px; */
+    /* padding-bottom: 10%;
+    padding-top: 0; */
+    position: absolute;
+    top: 101px;
+    left: 0;
+    /* right: 50px; */
+    
+}
+
+
+.price{
+    background-color: var(--color-light-pink);
+    text-align: center;
+    color: var(--color-dark-pink);
+    font-size: 25px;
+}
+
+
+.footer{
+    background-color: var(--color-light-pink);
+    /* padding-left: 300px; */
+    text-align: center;
+}

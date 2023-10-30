@@ -10,6 +10,12 @@ body{
 }
 
 
+.icon{
+    margin: 0;
+    padding: 0;
+}
+
+
 .header{
     display: grid;
     grid-template-columns: 2fr 1fr;
@@ -57,13 +63,6 @@ body{
     padding-right: 20px;
     padding-bottom: 40px;
     
-}
-
-
-footer{
-    background-color: var(--color-light-pink);
-    /* padding-left: 300px; */
-    text-align: center;
 }
 
 
@@ -128,9 +127,10 @@ h2{
     display: flex;
     background-color: var(--color-light-pink);
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-between;
     margin-top: 0;
     list-style: none;
+    margin-right: 40px;
 }
 
 
@@ -183,6 +183,34 @@ h2{
 }
 
 
+.numbers__list{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+
+.number{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.number h4{
+    /* text-align: center; */
+    /* align-self: center; */
+    display: block;
+    margin-left: 20px;
+    margin-left: 20%;
+    margin-right: 20%;
+    max-height: 30px;
+}
+
+
+.number a{
+    text-decoration: none;
+}
+
+
 .booking{
     color: var(--color-dark-pink);
     background-color: var(--color-light-pink);
@@ -190,6 +218,13 @@ h2{
     padding-top: 30px;
     padding-bottom: 70px;
     font-size: 2em ;
+    margin: 0;
+}
+
+
+.booking.subtitle{
+    background-color: white;
+    text-align: center;
 }
 
 
@@ -273,4 +308,23 @@ h2{
     flex-direction: column;
     align-items: center;
     background-color: var(--color-light-pink);
+}
+
+
+.number{
+    font-size: 30px;
+    color: var(--color-dark-pink);
+    list-style: none;
+}
+
+
+.number_price{
+    font-size: 20px;
+}
+
+
+footer{
+    background-color: var(--color-light-pink);
+    /* padding-left: 300px; */
+    text-align: center;
 }
